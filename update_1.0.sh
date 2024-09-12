@@ -58,7 +58,7 @@ source $HOME/vxpert-venv/bin/activate
 
 # Install Python dependencies from requirements.txt (always install/update these)
 echo "Installing/updating Python packages in virtual environment..."
-pip install --upgrade -r $HOME/vxpert-repo/requirements.txt
+pip install --upgrade -r $HOME/requirements.txt
 
 # Install Clang, G++, Icarus Verilog, and development tools if not installed
 if ! command_exists "clang"; then
