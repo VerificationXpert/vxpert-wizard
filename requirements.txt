@@ -1,0 +1,18 @@
+# Python testing framework
+pytest
+
+# Cocotb framework
+cocotb
+
+# Cocotb extensions (cocotbext)
+# You can add other cocotb extensions as needed
+cocotbext-axi
+cocotbext-eth
+cocotbext-pcie
+cocotbext-uart
+
+# mflowgen for VLSI flow
+mflowgen
+
+corsair
+
